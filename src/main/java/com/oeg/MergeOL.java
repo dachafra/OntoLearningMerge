@@ -24,7 +24,7 @@ public class MergeOL
         merge();
         findSimilarities();
 
-        pw.println("TextToOnto,Skecth,Our");
+        pw.println(",TextToOnto,Skecth,Our,");
         for (Map.Entry<String,Boolean[]> entry : nouns.entrySet()) {
             String key = entry.getKey();
             Boolean[] value = entry.getValue();
